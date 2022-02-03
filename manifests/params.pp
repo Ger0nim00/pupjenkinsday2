@@ -1,8 +1,5 @@
-# @summary A short summary of the purpose of this class
-#
-# A description of what this class does
-#
-# @example
-#   include jenkins::params
+# @summary Operating systems related variables (and others)
 class jenkins::params {
+  $install_ensure = 'present'
+  
 }
