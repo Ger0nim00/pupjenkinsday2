@@ -1,5 +1,11 @@
 # @summary Operating systems related variables (and others)
 class jenkins::params {
-  $install_ensure = 'present'
+
+  $version               = 'latest'
+  $port                  = 8000
+  $install_java          = true
+  $swarm_version         = '2.2'
+  $service_enable        = true
+  $service_ensure        = 'running'
   
 }
